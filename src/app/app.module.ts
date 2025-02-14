@@ -2,6 +2,8 @@
 import { NgModule } from '@angular/core';
 // Import BrowserModule for running app in browser
 import { BrowserModule } from '@angular/platform-browser';
+// Import FormsModule for form handling
+import { FormsModule } from '@angular/forms';
 
 // Import custom routing module
 import { AppRoutingModule } from './app-routing.module';
@@ -11,8 +13,6 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 // Import task form component
 import { TasksFormComponent } from './components/tasks-form/tasks-form.component';
-// Import FormsModule for form handling
-import { FormsModule } from '@angular/forms';
 // Import task list component
 import { TasksListComponent } from './components/tasks-list/tasks-list.component';
 // Import home component
@@ -27,6 +27,7 @@ import { HomeComponent } from './components/home/home.component';
     TasksListComponent,  // Task list component
     TasksFormComponent,  // Task form component
     HomeComponent        // Home component
+    
   ],
   // External modules needed by this module
   imports: [

@@ -1,0 +1,19 @@
+// Empty file for future styles 
+
+// Basic styles for the tasks list component
+.task-list {
+  margin: 1rem 0;
+  padding: 0;
+  list-style: none;
+}
+
+.task-item {
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  transition: all 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+} 
